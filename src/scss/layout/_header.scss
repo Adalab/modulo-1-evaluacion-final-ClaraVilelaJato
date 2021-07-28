@@ -1,3 +1,26 @@
 body {
   background-color: rgb(73, 41, 189);
 }
+.menu_Header {
+  background-color: #0271bc;
+  width: 44px;
+  height: 44px;
+  position: fixed;
+
+  .burger_Link {
+    width: 16px;
+    height: 40px;
+  }
+}
+.header_Hero {
+  height: 100vh;
+  background-image: url(../images/cover.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
