@@ -11,6 +11,8 @@
   align-items: center;
 }
 .hero_title {
+  width: 290px;
+  height: 110px;
   color: #ffffff;
   font-family: "Roboto Slab", serif;
   font-weight: bold;
@@ -18,12 +20,21 @@
   text-transform: uppercase;
   line-height: 55px;
   margin-bottom: 10px;
+  @media (min-width: 768px) {
+    font-size: 80px;
+    width: 690px;
+    height: 212px;
+    line-height: 106px;
+  }
 }
 .hero_subtitle {
   color: #ffffff;
   font-size: 15px;
   font-family: "Roboto", sans-serif;
   margin: 5px 15px 45px 15px;
+  @media (min-width: 768px) {
+    font-size: 24px;
+  }
 }
 .scroll-button {
   width: 45px;
@@ -38,6 +49,7 @@
 .section_One {
   background-color: $color-bg;
   padding: 30px 15px 45px 15px;
+
   h2 {
     text-transform: capitalize;
     font-family: $font-titles;
@@ -54,6 +66,10 @@
     color: #8ccbea;
     font-family: $font-text;
   }
+  @media (min-width: 768px) {
+    padding-left: 39px;
+    padding-right: 39px;
+  }
 }
 
 .button_Go {
@@ -69,7 +85,7 @@
   font-size: 20px;
 }
 
-.reasons {
+#reasons {
   background-color: #eff9ff;
   display: flex;
   flex-direction: column;

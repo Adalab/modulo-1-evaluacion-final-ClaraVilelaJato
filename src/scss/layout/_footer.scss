@@ -1,16 +1,17 @@
 .footer {
   background-color: $color-footer;
+  height: 465px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   text-align: center;
-  font-family: $font-text;
-  color: $color-bg;
   text-transform: uppercase;
+  font-family: $font-text;
   line-height: 30px;
   font-size: 16px;
   padding-bottom: 30px;
+  color: $color-bg;
 
   .arrow {
     width: 45px;
@@ -31,7 +32,17 @@
 
 .articles-list {
   list-style: none;
+  a {
+    text-decoration: none;
+    font-family: $font-text;
+    color: $color-bg;
+  }
 }
 .twitter {
   list-style: none;
+  a {
+    text-decoration: none;
+    font-family: $font-text;
+    color: $color-bg;
+  }
 }
