@@ -70,11 +70,27 @@
 
 .reasons {
   background-color: #eff9ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+
   .section-title {
     font-size: 24px;
     font-family: $font-titles;
     padding-top: 30px;
     text-align: center;
+  }
+  .more_Reasons {
+    background-color: $color-buttons;
+    color: $color-bg;
+    height: 45px;
+    width: 184px;
+    border-radius: 22.5px;
+    border: $color-buttons;
+    font-family: $font-text;
+    font-weight: 500;
+    font-size: 20px;
   }
 }
 
@@ -85,7 +101,7 @@
   row-gap: 45px;
   justify-content: center;
   padding-top: 45px;
-  padding-bottom: 60px;
+  padding-bottom: 45px;
   .purchase-titles {
     font-size: 18px;
     font-family: $font-titles;
@@ -95,15 +111,5 @@
     text-align: center;
     font-family: $font-text;
     font-size: 18px;
-  }
-  .more_Reasons {
-    background-color: $color-buttons;
-    color: $color-bg;
-    height: 45px;
-    border-radius: 22.5px;
-    border: $color-buttons;
-    font-family: $font-text;
-    font-weight: 500;
-    font-size: 20px;
   }
 }
