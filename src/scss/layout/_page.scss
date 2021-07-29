@@ -32,7 +32,7 @@
   margin-bottom: 50px;
 }
 .main {
-  width: 100vw;
+  width: 100%;
 }
 
 .section_One {
@@ -44,9 +44,10 @@
   }
   p {
     font-family: $font-text;
-    margin-top: 15px;
     color: #4a4a4a;
     line-height: 30px;
+    margin-bottom: 30px;
+    margin-top: 15px;
   }
   .imsomnia {
     font-size: 14px;
@@ -63,14 +64,12 @@
   text-transform: capitalize;
   font-weight: bold;
   color: #f26002;
-  margin-top: 30px;
   font-family: $font-text;
   font-weight: 500;
   font-size: 20px;
 }
 
 .reasons {
-  height: 109vh;
   background-color: #eff9ff;
   display: flex;
   flex-direction: column;
@@ -100,10 +99,11 @@
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 184px;
-  row-gap: 45px;
+  row-gap: 30px;
   justify-content: center;
   padding-top: 45px;
   padding-bottom: 45px;
+  line-height: 30px;
   .purchase-titles {
     font-size: 18px;
     font-family: $font-titles;
