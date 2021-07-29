@@ -1,0 +1,37 @@
+.footer {
+  background-color: $color-footer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 80vh;
+  text-align: center;
+  font-family: $font-text;
+  color: $color-bg;
+  text-transform: uppercase;
+  line-height: 30px;
+  font-size: 16px;
+
+  .arrow {
+    width: 45px;
+    height: 45px;
+    background-color: $color-bg;
+    border: none;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0 -1px 2px 0 rgba($color: #d1ccccf8, $alpha: 1);
+  }
+  .fas {
+    color: red;
+  }
+  p {
+    text-transform: lowercase;
+  }
+}
+
+.articles-list {
+  list-style: none;
+}
+.twitter {
+  list-style: none;
+}

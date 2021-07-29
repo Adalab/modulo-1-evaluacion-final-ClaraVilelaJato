@@ -48,12 +48,13 @@
     color: #4a4a4a;
     line-height: 30px;
   }
+  .imsomnia {
+    font-size: 14px;
+    color: #8ccbea;
+    font-family: $font-text;
+  }
 }
-.imsomnia {
-  font-size: 14px;
-  color: #8ccbea;
-  font-family: $font-text;
-}
+
 .button_Go {
   width: 75px;
   height: 45px;
@@ -69,6 +70,7 @@
 }
 
 .reasons {
+  height: 109vh;
   background-color: #eff9ff;
   display: flex;
   flex-direction: column;
