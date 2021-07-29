@@ -46,3 +46,22 @@
     color: $color-bg;
   }
 }
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  justify-content: space-around;
+}
+@media (min-width: 768px) {
+  .footer {
+    height: 240px;
+  }
+  .footer-wrapper {
+    flex-direction: row;
+    text-align: left;
+    width: 688px;
+    .footer-copy {
+      order: -1;
+    }
+  }
+}
