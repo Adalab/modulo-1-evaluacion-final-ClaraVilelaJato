@@ -67,3 +67,31 @@
   font-weight: medium;
   font-size: 20px;
 }
+
+.reasons {
+  background-color: #eff9ff;
+  .section-title {
+    font-size: 24px;
+    font-family: $font-titles;
+    padding-top: 30px;
+    text-align: center;
+  }
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 184px;
+  row-gap: 45px;
+  justify-content: center;
+  .purchase-titles {
+    font-size: 18px;
+    font-family: $font-titles;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    font-family: $font-text;
+    font-size: 18px;
+  }
+}
