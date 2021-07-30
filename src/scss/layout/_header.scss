@@ -11,5 +11,19 @@
   .burger_Link {
     width: 16px;
     height: 40px;
+    animation-duration: 10s;
+    animation-name: intro;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    @keyframes intro {
+      from {
+        transform: scale(2);
+      }
+
+      to {
+        transform: scale(1);
+      }
+    }
   }
 }
