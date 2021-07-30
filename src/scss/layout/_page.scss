@@ -7,8 +7,12 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
+  padding-top: 40vh;
+  @media (min-width: 1280px) {
+    justify-content: flex-end;
+  }
 }
 .hero_title {
   width: 290px;
@@ -26,21 +30,33 @@
     height: 212px;
     line-height: 106px;
   }
+  @media (min-width: 1280px) {
+    font-size: 100px;
+    line-height: 132px;
+  }
 }
 .hero_subtitle {
   color: #ffffff;
-  font-size: 15px;
+  font-size: 16px;
   font-family: "Roboto", sans-serif;
-  margin: 5px 15px 45px 15px;
+  margin: 5px 15px 22px 15px;
   @media (min-width: 768px) {
     font-size: 24px;
+  }
+  @media (min-width: 1280px) {
+    margin-top: 20px;
   }
 }
 .scroll-button {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  margin-top: 22px;
+  @media (min-width: 1280px) {
+    margin-top: 8px;
+    margin-bottom: 13px;
+  }
 }
 .main {
   width: 100%;
@@ -70,6 +86,9 @@
     padding-left: 39px;
     padding-right: 39px;
   }
+  @media (min-width: 1280px) {
+    padding: 60px 275px 60px 275px;
+  }
 }
 
 .button_Go {
@@ -83,6 +102,7 @@
   font-family: $font-text;
   font-weight: 500;
   font-size: 20px;
+  background-color: $color-bg;
 }
 
 #reasons {
