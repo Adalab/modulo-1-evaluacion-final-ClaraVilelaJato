@@ -1,8 +1,8 @@
 ![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
 
-# Adalab web starter kit
+# Módulo 1 evaluación final Clara Vilela
 
-Este es mi ejercicio de evaluación final para el primer módulo del curso de desarrollo web de Adalab, usando el Starter Kit que me han proporcionado creado en **node y gulp**.
+Este es mi ejercicio de evaluación final para el primer módulo del curso de desarrollo web de Adalab, usando el Starter Kit que me han proporcionado en Adalab creado en **node y gulp**.
 
 Los lenguajes que he utilizado para esta web son HTML5, CSS3 y el preprocesador SASS.
 
