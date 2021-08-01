@@ -27,6 +27,26 @@
     box-shadow: 0px 2px 15px 4px #f26002;
   }
 }
+.arrow-animation {
+  animation-duration: 10s;
+  animation-name: arrow;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  @keyframes arrow {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    50% {
+      transform: rotate(360deg);
+    }
+
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+}
 
 .fas {
   color: red;
