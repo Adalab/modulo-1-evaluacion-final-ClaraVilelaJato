@@ -69,7 +69,32 @@
 .main {
   width: 100%;
 }
+.anonymous {
+  background-color: $color-buttons;
+  width: 100vw;
+  color: $color-bg;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+  a {
+    text-decoration: none;
+    color: $color-bg;
+  }
+  @media (min-width: 768px) {
+    padding: 20px 0px 20px 0px;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: $color-footer;
+    .new-section-title {
+      padding-left: 20px;
+    }
+    .anonymous-p {
+      padding-right: 20px;
+    }
+  }
+}
 .section_One {
   background-color: $color-bg;
   padding: 30px 15px 45px 15px;
