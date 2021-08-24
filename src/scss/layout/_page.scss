@@ -109,6 +109,7 @@
     line-height: 30px;
     margin-bottom: 30px;
     margin-top: 15px;
+    text-transform: initial;
   }
   .imsomnia {
     font-size: 14px;
@@ -170,6 +171,9 @@
     font-family: $font-text;
     font-weight: 500;
     font-size: 20px;
+  }
+  p {
+    text-transform: initial;
   }
 }
 .more_Reasons:hover {
